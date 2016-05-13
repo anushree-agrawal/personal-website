@@ -292,6 +292,7 @@ span.menu {
 }
 .wedo-grid {
   text-align: center;
+  color: #351F3A;
 }
 .wedo-main {
   text-align: center;
@@ -1013,6 +1014,9 @@ ul.friend {
 }
 .gallery-left {
   width: 50%;
+}
+.gal-text p{
+  text-align: center;
 }
 .contact-top h3 {
   font-size: 1.6em;
