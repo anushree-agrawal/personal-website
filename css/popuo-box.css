@@ -122,7 +122,7 @@ opacity: 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; 
-  background-color: #9f9acf;
+  background-color: #351F3A;
 }
 
 .mfp-container:before {
@@ -209,7 +209,7 @@ button.mfp-arrow {
   overflow: visible;
   cursor: pointer;
   border: 0;
-   background:#9f9acf;
+   background:#351F3A;
   -webkit-appearance: none;
   display: block;
   padding: 0;

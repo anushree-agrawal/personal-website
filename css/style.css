@@ -9,17 +9,17 @@ h1, h2, h3 {margin-top: 0;}
 ul, ol {margin: 0;}
 p {margin: 0;}
 html, body{
- font-family: 'PT-Sans-Italic';
+ font-family: 'PT-Sans-Regular';
    font-size: 100%;
    background:#fff; 
 }
 @font-face {
-    font-family: 'MarkoOne-Regular';
-    src:url(../fonts/MarkoOne-Regular.ttf) format('truetype');
+    font-family: 'Walkway_SemiBold';
+    src:url(../fonts/Walkway_SemiBold.ttf) format('truetype');
 }
 @font-face {
-    font-family:  'PT-Sans-Italic';
-    src:url(../fonts/PT-Sans-Italic.ttf) format('truetype');
+    font-family:  'PT-Sans-Regular';
+    src:url(../fonts/PT-Sans-Regular.ttf) format('truetype');
 }
 a {
   text-decoration: none;
@@ -39,7 +39,7 @@ nav a {
 	text-decoration: none;
 	text-shadow: 0 0 1px rgba(255,255,255,0.3);
 	font-size: 1em;
-	font-family: 'MarkoOne-Regular';
+	font-family: 'Walkway_SemiBold';
 }
 
 nav a:hover,
@@ -82,7 +82,7 @@ nav a:focus {
 	transform: translateX(0px);
 }
 .header{
-	background: url(../images/banner.jpg)no-repeat;
+	background: url(../images/bokeh-banner.jpg)no-repeat;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -145,7 +145,7 @@ span.menu {
 .banner h1{
 	color: #fff;
 	font-size:3em;
-	font-family: 'MarkoOne-Regular';
+	font-family: 'Walkway_SemiBold';
 }
 .banner p {
   color: #fff;
@@ -168,20 +168,24 @@ span.menu {
 /*--header end here--*/
 /*--about start here--*/
 .ab-left h4 {
-  font-size: 1.2em;
+  font-size: 1.4em;
   font-weight: 600;
   color: #000;
   line-height: 1.5em;
   margin: 0em 0em 0.8em 0em;
+  font-style: italic; 
 }
 .ab-left p {
   font-size: 1em;
   color: #A8A8A8;
-  line-height: 1.8em;
-  font-style: italic;
+  line-height: 1.9em;
+  /*font-style: italic;*/
 }
-.about {
-  padding: 0em 0em 6em 0em;
+.ab-left strong {
+  color: #000;
+}
+.about-me {
+  padding: 0em 0em 0em 0em;
 }
 /*--about end here--*/
 /*--we aer start here--*/
@@ -193,7 +197,7 @@ span.menu {
   color: #000;
   font-size: 2.2em;
   font-weight: 700;
-  font-family: 'MarkoOne-Regular';
+  font-family: 'Walkway_SemiBold';
 }
 .weare-main p {
   color: #999;
@@ -212,18 +216,18 @@ span.menu {
 .poll_desc{
 	color: #777;
 	font-size: 1.1em;
-	font-style: italic;
+	/*font-style: italic;*/
 }
 .skills {
 	width: 100%;
 	margin: 10px 0;
-	border: 1px solid #9f9acf;
+	border: 1px solid #351F3A;
 	height:20px;
 }
 .skills > div {
 	height: 100%;
 	display: block;
-	background:#9f9acf;
+	background:#351F3A;
 }
 .weare-btn{
 	text-align:center;
@@ -233,7 +237,7 @@ span.menu {
   font-size: 1em;
   color: #fff;
   padding: 0.7em 1.5em;
-  background: #9f9acf;
+  background: #351F3A;
 }
 .weare-btn a:hover {
   background: #000;	
@@ -242,7 +246,7 @@ span.menu {
 /*--work--*/
 .work{
 	background: url(../images/work.jpg);
-	padding:6em 0;
+	padding:3em 0;
 	text-align: center;
 	background-size: 100% 100%;
 	-webkit-background-size: cover;
@@ -252,15 +256,15 @@ span.menu {
 	background-position: center;
 }
 .work-main h3 {
-  color: #fff;
+  color: #000;
   font-size: 2.2em;
   font-weight: 700;
-  font-family: 'MarkoOne-Regular';
+  font-family: 'Walkway_SemiBold';
 }
 .work-main p {
   color: #fff;
   font-size: 1.1em;
-  font-style: italic;
+  /*font-style: italic;*/
   line-height: 1.8em;
   width: 60%;
   margin: 0 auto;
@@ -273,7 +277,7 @@ span.menu {
 .work-top {
   padding: 0em 0em 3em 0em;
 }
-/*--services--*/
+/*--projects--*/
 .wedo{
 	background:#fff;
 	padding:6em 0em 3em 0em;
@@ -282,7 +286,7 @@ span.menu {
   color: #000;
   font-size: 2.2em;
   font-weight: 700;
-  font-family:'MarkoOne-Regular';
+  font-family:'Walkway_SemiBold';
 }
 .wedo-grid {
   text-align: center;
@@ -304,13 +308,13 @@ span.glyphicon.glyphicon.glyphicon-user {
   display: block;
 }
 .wedo-grid:hover span.glyphicon.glyphicon.glyphicon-time{
-	color:#9f9acf;
+	color:#351F3A;
 }
 .wedo-grid:hover span.glyphicon.glyphicon.glyphicon-off{
-	color:#9f9acf;
+	color:#351F3A;
 }
 .wedo-grid:hover span.glyphicon.glyphicon.glyphicon-user{
-	color:#9f9acf;
+	color:#351F3A;
 }
 .wedo-grid h4{
 	font-size:1.2em;
@@ -322,7 +326,7 @@ span.glyphicon.glyphicon.glyphicon-user {
 	font-weight:bold;
 }
 .wedo-grid:hover h4 a{
-	color:#9f9acf;
+	color:#351F3A;
 	text-decoration:none;
 }
 .wedo-grid p{
@@ -352,7 +356,7 @@ span.glyphicon.glyphicon.glyphicon-user {
   color: #000;
   font-size: 2.2em;
   font-weight: 700;
-  font-family:'MarkoOne-Regular';
+  font-family:'Walkway_SemiBold';
 }
 .friend {
   padding: 0;
@@ -368,13 +372,13 @@ span.glyphicon.glyphicon.glyphicon-user {
 .friend-desc h3,.friend-desc1 h3 {
   font-size: 1.5em;
   margin: 0em 0em 0.3em 0em;
-  font-family:'MarkoOne-Regular';
+  font-family:'Walkway_SemiBold';
 }
 .friend-desc h3 a,.friend-desc1 h3 a{
 	color:#000;
 }
 .friend-desc h3 a:hover,.friend-desc1 h3 a:hover{
-	color:#9f9acf;
+	color:#351F3A;
 	text-decoration:none;
 }
 .friend-desc,.friend-desc1 {
@@ -404,7 +408,7 @@ span.glyphicon.glyphicon.glyphicon-user {
   color: #000;
   font-size: 2.2em;
   font-weight: 700;
-  font-family: 'MarkoOne-Regular';
+  font-family: 'Walkway_SemiBold';
 }
 .gallery-top p{
   color: #999;
@@ -447,7 +451,7 @@ img.zoom-img:hover {
   color: #000;
   font-size: 2.2em;
   font-weight: 700;
-  font-family: 'MarkoOne-Regular';
+  font-family: 'Walkway_SemiBold';
 }
 .contact-bottom input[type="text"] {
   font-size: 1em;
@@ -475,7 +479,7 @@ img.zoom-img:hover {
   font-size: 1em;
   color: #fff;
   padding: 0.4em 1em 0.4em 1em;
-  background: #9f9acf;
+  background: #351F3A;
   border: none;
   width: 8%;
   outline: none;
@@ -495,7 +499,7 @@ img.zoom-img:hover {
 .copy-rights {
   padding: 1.4em 0em;
   text-align: center;
-  background: #9f9acf;
+  background: #351F3A;
 }
 .copy-rights ul {
   padding: 0em;
@@ -611,7 +615,7 @@ img.zoom-img:hover {
 .weare {
   padding: 3em 0em 3em 0em;
 }
-.about {
+.about-me {
   padding: 0em 0em 3em 0em;
 }
 .wedo {
@@ -653,7 +657,7 @@ span.menu{
 .top-navg ul.res li{
 		display: block;
 		text-align: center;
-		background:#9f9acf;
+		background:#351F3A;
 		margin: 0;
 		  width: 100%;
 }
@@ -885,7 +889,7 @@ span.menu img {
 .weare-main {
   padding: 0em 0em 1.5em 0em;
 }
-.about {
+.about-me {
   padding: 1em 0em 4em 0em;
 }
 .weare-right {
@@ -898,7 +902,7 @@ span.menu img {
   padding: 0px;
   width: 90%;
 }
-.about {
+.about-me {
   padding: 1em 0em 2em 0em;
 }
 .work {
@@ -1076,7 +1080,7 @@ ul.friend {
   line-height: 1.4em;
 }
 .ab-left p {
-  line-height: 1.5em;
+  line-height: 2em;
   font-size: 0.81em;
 }
 .ab-right {
