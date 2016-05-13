@@ -157,6 +157,9 @@ span.menu {
   margin: 0 auto;
   font-style: italic;
 }
+.banner:link {
+  color: white;
+}
 .header span.mover {
   background: url(../images/mover.png)no-repeat 0px 0px;
   width: 60px;
@@ -671,6 +674,9 @@ span.menu img {
 }
 .banner {
   padding: 1.5em 0 0em;
+}
+.banner:link {
+  color: white;
 }
 .header {
   min-height: 305px;
