@@ -355,7 +355,8 @@ img.zoom-img:hover {
 .copy-rights {
   padding: 1.4em 0em;
   text-align: center;
-  background: #351F3A;
+  background: url(../images/bokeh-banner.jpg)no-repeat;
+  background-position: left center;
 }
 .copy-rights ul {
   padding: 0em;
@@ -577,6 +578,8 @@ ul.res  a:hover,ul.res li a.active{
   width: 33%;
   padding: 0px 10px 0px 0px;
   margin: 0em 0em 1em 0em;
+  font-family: 'PT-Sans-Regular';
+  font-style: italic; 
 }
 .contact-top h3 {
   font-size: 1.9em;
