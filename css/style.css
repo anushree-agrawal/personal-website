@@ -48,6 +48,10 @@ nav a:hover,
 nav a:focus {
 	outline: none;
 }
+.navbar-custom {
+  background: url(../images/bokeh-banner.jpg)no-repeat;
+  background-position: left center;
+}
 /* Effect 1: Brackets */
 .cl-effect-1 a::before,
 .cl-effect-1 a::after {
@@ -101,6 +105,7 @@ span.menu {
 }
 /*--search--*/
 .search {
+  padding-top: 2em;
   float: left;
 }
 .search a {
