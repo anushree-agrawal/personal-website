@@ -23,12 +23,14 @@ html, body{
 }
 a {
   text-decoration: none;
+  color: #351F3A;
 }
 a:hover {
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
   -moz-transition: 0.5s all;
   -o-transition: 0.5s all;
+  color: #5C364F
 }
 /*--start-header here--*/
 nav a {
@@ -280,7 +282,7 @@ span.menu {
 /*--projects--*/
 .wedo{
 	background:#fff;
-	padding:6em 0em 3em 0em;
+	padding:0em 0em 6em 0em;
 }
 .wedo-main h3 {
   color: #000;
@@ -452,6 +454,20 @@ img.zoom-img:hover {
   font-size: 2.2em;
   font-weight: 700;
   font-family: 'Walkway_SemiBold';
+}
+.contact-bottom {
+  margin: 5px;
+  color: #351F3A;
+}
+.contact-bottom:link
+{
+  color: #351F3A;
+}
+.contact-bottom ul li {
+  display: inline-block;
+  list-style: none; 
+  padding-right: 20px
+
 }
 .contact-bottom input[type="text"] {
   font-size: 1em;
